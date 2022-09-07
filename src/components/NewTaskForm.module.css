@@ -1,0 +1,29 @@
+.contentTaskForm {
+    margin-top: -27px;
+    display: flex;
+    justify-content: center;
+}
+
+.contentTaskForm .input {
+    flex: 1;
+    background: var(--gray-500);
+    color: var(--gray-100);
+    padding: 1rem;
+    border-radius: 8px;
+    border: 0;
+}
+
+.contentTaskForm button[type=submit] {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    background-color: var(--blue-dark);
+    padding: 1rem;
+    margin-left: 0.5rem;
+    border-radius: 8px;
+    gap: 0.5rem;
+}
+
+.contentTaskForm button[type=submit]:hover {
+    background-color: var(--blue);
+}

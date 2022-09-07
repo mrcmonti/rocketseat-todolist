@@ -1,0 +1,21 @@
+.header {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+strong {
+    color: var(--blue);
+}
+
+strong + strong{
+    color: var(--purple);
+}
+
+strong > span {
+    background-color: var(--gray-400);
+    color: var(--gray-200);
+    padding: 2px 8px;
+    border-radius: 999px;
+    margin-left: 10px;
+}

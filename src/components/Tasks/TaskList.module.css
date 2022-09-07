@@ -1,0 +1,22 @@
+.noItem {
+    display: flex;
+    height: 244px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.noItem > img {
+    margin-bottom: 1rem;
+}
+
+.noItem > p {
+    color: var(--gray-300);
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 22px;
+}
+
+.noItem > p + p {
+    font-weight: 400;
+}
